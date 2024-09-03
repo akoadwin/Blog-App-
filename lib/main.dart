@@ -9,7 +9,9 @@ void main() async {
   WidgetsFlutterBinding();
   await initDependencies();
   runApp(MultiBlocProvider(
-    providers: [BlocProvider(create: (_) => serviceLocator<AuthBloc>())],
+    providers: [
+      BlocProvider(create: (_) => serviceLocator<AuthBloc>()),
+    ],
     child: const MyApp(),
   ));
 }
