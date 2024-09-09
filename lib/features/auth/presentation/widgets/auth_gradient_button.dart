@@ -16,16 +16,16 @@ class AuthGradientButton extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(7),
-          // ignore: prefer_const_constructors
-          gradient: LinearGradient(
+          gradient: const LinearGradient(
               begin: Alignment.bottomRight,
               end: Alignment.bottomLeft,
-              colors: const [
+              colors: [
                 AppPallete.gradient1,
                 AppPallete.gradient2,
               ])),
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
+              shape: const CircleBorder(),
               backgroundColor: AppPallete.transparentColor,
               shadowColor: AppPallete.transparentColor,
               fixedSize: const Size(395, 55)),

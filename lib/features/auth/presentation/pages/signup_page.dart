@@ -10,7 +10,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SignupPage extends StatefulWidget {
   const SignupPage({super.key});
-  static route() => MaterialPageRoute(builder: (context) => const SignupPage());
+  static route() => MaterialPageRoute(
+        builder: (context) => const SignupPage(),
+      );
 
   @override
   State<SignupPage> createState() => _SignupPageState();

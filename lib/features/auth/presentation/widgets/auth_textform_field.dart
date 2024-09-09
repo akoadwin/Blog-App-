@@ -14,6 +14,7 @@ class AuthField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      autovalidateMode: AutovalidateMode.onUserInteraction,
       obscureText: isObscureText,
       controller: controller,
       validator: (value) {
