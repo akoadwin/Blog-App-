@@ -3,7 +3,6 @@ import 'package:blog_app/core/usecase/usecase.dart';
 import 'package:blog_app/core/entities/user.dart';
 import 'package:blog_app/features/auth/domain/usecases/current_user.dart';
 import 'package:blog_app/features/auth/domain/usecases/user_login.dart';
-import 'package:blog_app/features/auth/domain/usecases/user_logout.dart';
 import 'package:blog_app/features/auth/domain/usecases/user_signup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
